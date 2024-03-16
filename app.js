@@ -25,6 +25,13 @@
 
 /*Initialize a boolean array*/
 
-var booleanArray = [true,false,true,false]
+// var booleanArray = [true,false,true,false]
 
-document.write(booleanArray[1])
+// document.write(booleanArray[1])
+
+//Question No: 6
+
+/*Initialize a mixed array*/
+
+var mixedArray = ["apple",10,true,"banana",20,false,"cherry"];
+document.write(mixedArray[0]);
