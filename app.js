@@ -10,6 +10,11 @@
 
 /*Initialize a string array*/
 
-var stringArray = ["apple","banana","cherry", "date"];
+// var stringArray = ["apple","banana","cherry", "date"];
 
-document.write(stringArray)
+// document.write(stringArray)
+
+//Question No: 4
+
+var numberArray = [10,20,40,50];
+document.write(numberArray[0])
