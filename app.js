@@ -45,19 +45,26 @@
 
 //Question No: 8
 
-var studentNames = ["Micheal","John","Tony"];
+// var studentNames = ["Micheal","John","Tony"];
 
-var scores = [320,230,480];
+// var scores = [320,230,480];
 
-document.write("Score of "+studentNames[0] + " is " + " " + scores[0] + " "+".Percentage: " +scores[0]* 100 / 500 + "%" + "<br>")
-document.write("Score of "+studentNames[1] + " is " + " " + scores[1] + " "+".Percentage: " +scores[1]* 100 / 500 + "%" + "<br>")
-document.write("Score of "+studentNames[2] + " is " + " " + scores[2] + " "+".Percentage: " +scores[2]* 100 / 500 + "%" + "<br>")
+// document.write("Score of "+studentNames[0] + " is " + " " + scores[0] + " "+".Percentage: " +scores[0]* 100 / 500 + "%" + "<br>")
+// document.write("Score of "+studentNames[1] + " is " + " " + scores[1] + " "+".Percentage: " +scores[1]* 100 / 500 + "%" + "<br>")
+// document.write("Score of "+studentNames[2] + " is " + " " + scores[2] + " "+".Percentage: " +scores[2]* 100 / 500 + "%" + "<br>")
 
 //Question  No: 9
 
 /*Initialize an array with color names.*/
 
-// var color = ["red","green","blue"];
+var colorName = [];
 
-// document.write(color);
+document.write(colorName);
 
+//--A
+
+ask = prompt("what color want to add the beginning");
+if (colorName){
+    colorName.unshift(ask);
+}
+document.write(`First index color Name is :<b> ${colorName}</b><br>`)
