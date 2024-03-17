@@ -63,8 +63,16 @@ document.write(colorName);
 
 //--A
 
-ask = prompt("what color want to add the beginning");
+// ask = prompt("what color want to add the beginning");
+// if (colorName){
+//     colorName.unshift(ask);
+// }
+// document.write(`First index color Name is :<b> ${colorName}</b><br>`)
+
+//--B
+
 if (colorName){
-    colorName.unshift(ask);
-}
-document.write(`First index color Name is :<b> ${colorName}</b><br>`)
+    var endChange = prompt("What color wants to add to the end");
+    colorName.push(endChange);
+}  
+document.write(`Last index Color Name is :<b> ${endChange}</b> <br>`);
