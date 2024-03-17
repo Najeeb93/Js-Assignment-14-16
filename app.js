@@ -38,7 +38,18 @@
 
 //Question No: 7
 
-var qualifications = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil.","PhD"];
-for(var i = 0;i < qualifications.length ; i++) {
-    document.write(qualifications[i]+"<br>");
+// var qualifications = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil.","PhD"];
+// for(var i = 0;i < qualifications.length ; i++) {
+//     document.write(qualifications[i]+"<br>");
+// }
+
+//Question No: 8
+
+var studentNames = ["Ali","Ahmed","Ashan"];
+
+var studentScores = [420,460,480];
+
+for(var i = 0; i < studentNames.length; i++){
+    var averageScore = studentScores[i]/ 500 * 100;
+    document.write(studentNames[i]+ "'s average score is" + averageScore + "%" + "<br>");
 }
