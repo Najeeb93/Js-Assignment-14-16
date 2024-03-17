@@ -33,5 +33,12 @@
 
 /*Initialize a mixed array*/
 
-var mixedArray = ["apple",10,true,"banana",20,false,"cherry"];
-document.write(mixedArray[0]);
+// var mixedArray = ["apple",10,true,"banana",20,false,"cherry"];
+// document.write(mixedArray[0]);
+
+//Question No: 7
+
+var qualifications = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil.","PhD"];
+for(var i = 0;i < qualifications.length ; i++) {
+    document.write(qualifications[i]+"<br>");
+}
