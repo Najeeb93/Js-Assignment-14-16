@@ -45,20 +45,19 @@
 
 //Question No: 8
 
-// var studentNames = ["Ali","Ahmed","Ashan"];
+var studentNames = ["Micheal","John","Tony"];
 
-// var scores = [420,460,480];
+var scores = [320,230,480];
 
-// for(var i = 0; i < studentNames.length; i++){
-//     var averageScore = scores[i]/ 500 * 100;
-//     document.write(studentNames[i]+ "'s average score is " + averageScore + "%" + "<br>");
-// }
+document.write("Score of "+studentNames[0] + " is " + " " + scores[0] + " "+".Percentage: " +scores[0]* 100 / 500 + "%" + "<br>")
+document.write("Score of "+studentNames[1] + " is " + " " + scores[1] + " "+".Percentage: " +scores[1]* 100 / 500 + "%" + "<br>")
+document.write("Score of "+studentNames[2] + " is " + " " + scores[2] + " "+".Percentage: " +scores[2]* 100 / 500 + "%" + "<br>")
 
 //Question  No: 9
 
 /*Initialize an array with color names.*/
 
-var color = ["red","green","blue"];
+// var color = ["red","green","blue"];
 
-document.write(color[""]);
+// document.write(color);
 
