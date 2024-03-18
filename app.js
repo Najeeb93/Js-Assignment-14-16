@@ -150,16 +150,39 @@
 
 /*-------------- Question No: 13 -----------*/
 
-var devices = [];
+// var devices = [];
 
-devices.push("Keyboard");
-devices.push("Mouse");
-devices.push("Printer");
-devices.push("Monitor");
+// devices.push("Keyboard");
+// devices.push("Mouse");
+// devices.push("Printer");
+// devices.push("Monitor");
 
-document.write(`Devices: <br> ${devices}<br><br>`);
+// document.write(`Devices: <br> ${devices}<br><br>`);
 
-document.write(`Out: <br>` + devices.shift() + "<br>")
-document.write(`Out: <br>` + devices.shift() + "<br>")
-document.write(`Out: <br>` + devices.shift() + "<br>")
-document.write(`Out: <br>` + devices.shift() + "<br>")
+// document.write(`Out: <br>` + devices.shift() + "<br>")
+// document.write(`Out: <br>` + devices.shift() + "<br>")
+// document.write(`Out: <br>` + devices.shift() + "<br>")
+// document.write(`Out: <br>` + devices.shift() + "<br>")
+
+
+/*---------- Question No : 14 ------------*/
+
+// var devices = []
+// devices.push("Keyboard")
+// devices.push("mouse")
+// devices.push("printer")
+// devices.push("monitor")
+// document.write(`Devices </br>${devices}</br></br>`);
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+
+
+/*---------- Question No: 15 ------------*/
+
+
+var mobile = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+for (i = 0; i < mobile.length; i++){
+    document.write(`<select><option>${mobile[i]}</option></select>&nbsp&nbsp`)
+}
