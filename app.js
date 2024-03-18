@@ -121,7 +121,17 @@
 
 //Question No: 10
 
-var scoreOfstudent = [320,230,480,120]
-document.write(`Student Scores Result before sort ${scoreOfstudent}<br>`)
-scoreOfstudent.sort()
-document.write(`Result of sort Array is ${scoreOfstudent}`);
+// var scoreOfstudent = [320,230,480,120]
+// document.write(`Student Scores Result before sort ${scoreOfstudent}<br>`)
+// scoreOfstudent.sort()
+// document.write(`Result of sort Array is ${scoreOfstudent}`);
+
+//Question No: 11
+
+var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+
+document.write(`Cities List:<br> ${cities}<br><br>`)
+
+var selectedCities = cities.slice(2,4)
+
+document.write(`Selected Cities List: <br> ${selectedCities}`)
