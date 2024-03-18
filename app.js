@@ -57,9 +57,9 @@
 
 /*Initialize an array with color names.*/
 
-var colorName = [];
+// var colorName = [];
 
-document.write(colorName);
+// document.write(colorName);
 
 //--A
 
@@ -112,9 +112,16 @@ document.write(colorName);
 
 //--G
 
-var deleteIndex = +prompt("Which index you want to delete");
-var deleteColor = +prompt("How many colors you want delete");
-colorName.splice(deleteIndex,deleteColor);
-document.write(`you selecte index for delete from ${deleteIndex}<br> you want to delete ${deleteColor} color from index ${deleteIndex} <br>`)
-total = colorName;
-document.write(`Result of updated array is ${total}`)
+// var deleteIndex = +prompt("Which index you want to delete");
+// var deleteColor = +prompt("How many colors you want delete");
+// colorName.splice(deleteIndex,deleteColor);
+// document.write(`you selecte index for delete from ${deleteIndex}<br> you want to delete ${deleteColor} color from index ${deleteIndex} <br>`)
+// total = colorName;
+// document.write(`Result of updated array is ${total}`);
+
+//Question No: 10
+
+var scoreOfstudent = [320,230,480,120]
+document.write(`Student Scores Result before sort ${scoreOfstudent}<br>`)
+scoreOfstudent.sort()
+document.write(`Result of sort Array is ${scoreOfstudent}`);
