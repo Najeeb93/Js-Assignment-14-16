@@ -1,12 +1,13 @@
 
-// Assignment # 13-15
+/*------------- Assignment # 13-15 ---------------------*/
 
-//Question No: 1
+
+/*-----------Question No: 1-------*/
 
 // var studentName = [];
 // document.write(studentName)
 
-//Question No: 3 
+/*-------Question No: 3 ---------------*/
 
 /*Initialize a string array*/
 
@@ -14,14 +15,14 @@
 
 // document.write(stringArray)
 
-//Question No: 4
+/*--------------Question No: 4 -------------*/
 /*Initialize a number array*/
 
 // var numberArray = [10,20,40,50];
 // document.write(numberArray[0])
 
 
-//Question No: 5
+/*------------Question No: 5---------------*/
 
 /*Initialize a boolean array*/
 
@@ -29,21 +30,21 @@
 
 // document.write(booleanArray[1])
 
-//Question No: 6
+/*------------Question No: 6---------------*/
 
 /*Initialize a mixed array*/
 
 // var mixedArray = ["apple",10,true,"banana",20,false,"cherry"];
 // document.write(mixedArray[0]);
 
-//Question No: 7
+/*--------------Question No: 7 ------------*/
 
 // var qualifications = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil.","PhD"];
 // for(var i = 0;i < qualifications.length ; i++) {
 //     document.write(qualifications[i]+"<br>");
 // }
 
-//Question No: 8
+/*---------------Question No: 8 -------------*/
 
 // var studentNames = ["Micheal","John","Tony"];
 
@@ -53,7 +54,7 @@
 // document.write("Score of "+studentNames[1] + " is " + " " + scores[1] + " "+".Percentage: " +scores[1]* 100 / 500 + "%" + "<br>")
 // document.write("Score of "+studentNames[2] + " is " + " " + scores[2] + " "+".Percentage: " +scores[2]* 100 / 500 + "%" + "<br>")
 
-//Question  No: 9
+/*---------------Question  No: 9 -----------*/
 
 /*Initialize an array with color names.*/
 
@@ -119,19 +120,31 @@
 // total = colorName;
 // document.write(`Result of updated array is ${total}`);
 
-//Question No: 10
+/*--------------- Question No: 10 --------------*/
 
 // var scoreOfstudent = [320,230,480,120]
 // document.write(`Student Scores Result before sort ${scoreOfstudent}<br>`)
 // scoreOfstudent.sort()
 // document.write(`Result of sort Array is ${scoreOfstudent}`);
 
-//Question No: 11
 
-var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+/*--------------- Question No: 11 --------------*/
 
-document.write(`Cities List:<br> ${cities}<br><br>`)
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
 
-var selectedCities = cities.slice(2,4)
+// document.write(`Cities List:<br> ${cities}<br><br>`)
 
-document.write(`Selected Cities List: <br> ${selectedCities}`)
+// var selectedCities = cities.slice(2,4)
+
+// document.write(`Selected Cities List: <br> ${selectedCities}`)
+
+
+/*------------------ Question No: 12 ----------*/
+
+var arr = ["This","is","my","cat"];
+document.write(`Array: <br> ${arr}<br><br>`);
+ 
+var string = arr.join(" ");
+document.write(`String: <br> ${string} <br>`)
+
+
