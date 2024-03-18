@@ -141,10 +141,25 @@
 
 /*------------------ Question No: 12 ----------*/
 
-var arr = ["This","is","my","cat"];
-document.write(`Array: <br> ${arr}<br><br>`);
+// var arr = ["This","is","my","cat"];
+// document.write(`Array: <br> ${arr}<br><br>`);
  
-var string = arr.join(" ");
-document.write(`String: <br> ${string} <br>`)
+// var string = arr.join(" ");
+// document.write(`String: <br> ${string} <br>`);
 
 
+/*-------------- Question No: 13 -----------*/
+
+var devices = [];
+
+devices.push("Keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+
+document.write(`Devices: <br> ${devices}<br><br>`);
+
+document.write(`Out: <br>` + devices.shift() + "<br>")
+document.write(`Out: <br>` + devices.shift() + "<br>")
+document.write(`Out: <br>` + devices.shift() + "<br>")
+document.write(`Out: <br>` + devices.shift() + "<br>")
