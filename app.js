@@ -71,8 +71,20 @@ document.write(colorName);
 
 //--B
 
-if (colorName){
-    var endChange = prompt("What color wants to add to the end");
-    colorName.push(endChange);
-}  
-document.write(`Last index Color Name is :<b> ${endChange}</b> <br>`);
+// if (colorName){
+//     var endChange = prompt("What color wants to add to the end");
+//     colorName.push(endChange);
+// }  
+// document.write(`Last index Color Name is :<b> ${endChange}</b> <br>`);
+
+//--C
+
+var add1More = prompt("Enter one more to add 1 at beginning");
+var add2More = prompt("Enter one more to add 1 at beginning");
+
+if (add1More && add2More){
+    colorName.unshift(`${add1More}`);
+    colorName.unshift(`${add2More}`);
+
+    document.write(`Color Add at beginning :<b> ${add1More},${add2More}</b><br>`);
+}
