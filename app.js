@@ -101,11 +101,20 @@ document.write(colorName);
 
 //--F
 
-var index = +prompt("Which index you want to add a color");
-var colorAdd = prompt("Which color name you want "+ index);
+// var index = +prompt("Which index you want to add a color");
+// var colorAdd = prompt("Which color name you want "+ index);
 
-colorName.splice(index,0,colorAdd);
-document.write(`you selecte index ${index} <br> you selecte color :${colorAdd} <br> to added on index ${index} <br> your result is index ${index} and color ${colorAdd} <br>`);
+// colorName.splice(index,0,colorAdd);
+// document.write(`you selecte index ${index} <br> you selecte color :${colorAdd} <br> to added on index ${index} <br> your result is index ${index} and color ${colorAdd} <br>`);
 
-var total = colorName;
-document.write(`Result of Array is ${total} <br>`);
+// var total = colorName;
+// document.write(`Result of Array is ${total} <br>`);
+
+//--G
+
+var deleteIndex = +prompt("Which index you want to delete");
+var deleteColor = +prompt("How many colors you want delete");
+colorName.splice(deleteIndex,deleteColor);
+document.write(`you selecte index for delete from ${deleteIndex}<br> you want to delete ${deleteColor} color from index ${deleteIndex} <br>`)
+total = colorName;
+document.write(`Result of updated array is ${total}`)
