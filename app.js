@@ -79,12 +79,22 @@ document.write(colorName);
 
 //--C
 
-var add1More = prompt("Enter one more to add 1 at beginning");
-var add2More = prompt("Enter one more to add 1 at beginning");
+// var add1More = prompt("Enter one more to add 1 at beginning");
+// var add2More = prompt("Enter one more to add 1 at beginning");
 
-if (add1More && add2More){
-    colorName.unshift(`${add1More}`);
-    colorName.unshift(`${add2More}`);
+// if (add1More && add2More){
+//     colorName.unshift(`${add1More}`);
+//     colorName.unshift(`${add2More}`);
 
-    document.write(`Color Add at beginning :<b> ${add1More},${add2More}</b><br>`);
-}
+//     document.write(`Color Add at beginning :<b> ${add1More},${add2More}</b><br>`);
+// }
+
+//--D
+
+// document.write(`deleted first color name : ${colorName.shift("")}<br>`);
+
+//--E
+
+var lastColor = colorName.pop("");
+
+document.write(`Delete last array ${lastColor}<br>`);
