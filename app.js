@@ -95,6 +95,17 @@ document.write(colorName);
 
 //--E
 
-var lastColor = colorName.pop("");
+// var lastColor = colorName.pop("");
 
-document.write(`Delete last array ${lastColor}<br>`);
+// document.write(`Delete last array ${lastColor}<br>`);
+
+//--F
+
+var index = +prompt("Which index you want to add a color");
+var colorAdd = prompt("Which color name you want "+ index);
+
+colorName.splice(index,0,colorAdd);
+document.write(`you selecte index ${index} <br> you selecte color :${colorAdd} <br> to added on index ${index} <br> your result is index ${index} and color ${colorAdd} <br>`);
+
+var total = colorName;
+document.write(`Result of Array is ${total} <br>`);
