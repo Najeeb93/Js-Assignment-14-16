@@ -173,16 +173,16 @@
 // devices.push("printer")
 // devices.push("monitor")
 // document.write(`Devices </br>${devices}</br></br>`);
-// document.write(`Out </br>` + devices.shift() + "</br>");
-// document.write(`Out </br>` + devices.shift() + "</br>");
-// document.write(`Out </br>` + devices.shift() + "</br>");
-// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.reverse() + "</br>");
+// document.write(`Out </br>` + devices.reverse() + "</br>");
+// document.write(`Out </br>` + devices.reverse() + "</br>");
+// document.write(`Out </br>` + devices.reverse() + "</br>");
 
 
 /*---------- Question No: 15 ------------*/
 
 
-var mobile = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
-for (i = 0; i < mobile.length; i++){
-    document.write(`<select><option>${mobile[i]}</option></select>&nbsp&nbsp`)
-}
+// var mobile = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// for (i = 0; i < mobile.length; i++){
+//     document.write(`<select><option>${mobile[i]}</option></select>&nbsp&nbsp`)
+// }
